@@ -158,6 +158,15 @@
              <version>2.18.3</version>
              <scope>compile</scope>
          </dependency>
+
+         <!-- Source: https://mvnrepository.com/artifact/org.hibernate/hibernate-c3p0 -->
+         <dependency>
+             <groupId>org.hibernate</groupId>
+             <artifactId>hibernate-c3p0</artifactId>
+             <version>6.2.1.Final</version>
+             <type>pom</type>
+             <scope>compile</scope>
+         </dependency>
              
     </dependencies>
 </project>
