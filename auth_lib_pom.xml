@@ -12,13 +12,150 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <dependencies>           
-         <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-bom</artifactId>
-            <version>2.1.0</version>
-            <type>pom</type>
-            <scope>import</scope>
-         </dependency>             
+    <dependencies>  
+         
+<!-- Source: https://mvnrepository.com/artifact/org.aspectj/aspectjrt -->
+<dependency>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjrt</artifactId>
+    <version>1.9.25.1</version>
+    <scope>runtime</scope>
+</dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+<dependency>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjweaver</artifactId>
+    <version>1.9.25.1</version>
+    <scope>runtime</scope>
+</dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk18on -->
+<dependency>
+    <groupId>org.bouncycastle</groupId>
+    <artifactId>bcprov-jdk18on</artifactId>
+    <version>1.83</version>
+    <scope>compile</scope>
+</dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/org.owasp.encoder/encoder -->
+<dependency>
+    <groupId>org.owasp.encoder</groupId>
+    <artifactId>encoder</artifactId>
+    <version>1.3.1</version>
+    <scope>compile</scope>
+</dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/org.slf4j/jcl-over-slf4j -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>jcl-over-slf4j</artifactId>
+    <version>2.0.17</version>
+    <scope>compile</scope>
+</dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.42</version>
+    <scope>compile</scope>
+</dependency>
+
+
+<!-- Source: https://mvnrepository.com/artifact/org.apache.shiro/shiro-aspectj -->
+<dependency>
+    <groupId>org.apache.shiro</groupId>
+    <artifactId>shiro-aspectj</artifactId>
+    <version>2.1.0</version>
+    <scope>compile</scope>
+</dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/org.apache.shiro/shiro-cache -->
+<dependency>
+    <groupId>org.apache.shiro</groupId>
+    <artifactId>shiro-cache</artifactId>
+    <version>2.1.0</version>
+    <scope>compile</scope>
+</dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/org.apache.shiro/shiro-jakarta-ee -->
+<dependency>
+    <groupId>org.apache.shiro</groupId>
+    <artifactId>shiro-jakarta-ee</artifactId>
+    <version>2.1.0</version>
+    <scope>compile</scope>
+</dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/org.apache.shiro/shiro-config-core -->
+<dependency>
+    <groupId>org.apache.shiro</groupId>
+    <artifactId>shiro-config-core</artifactId>
+    <version>2.1.0</version>
+    <scope>compile</scope>
+</dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/org.apache.shiro/shiro-support -->
+<dependency>
+    <groupId>org.apache.shiro</groupId>
+    <artifactId>shiro-support</artifactId>
+    <version>2.1.0</version>
+    <type>pom</type>
+    <scope>compile</scope>
+</dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/org.apache.shiro/shiro-cdi -->
+<dependency>
+    <groupId>org.apache.shiro</groupId>
+    <artifactId>shiro-cdi</artifactId>
+    <version>2.1.0</version>
+    <scope>compile</scope>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.shiro</groupId>
+    <artifactId>shiro-crypto-cipher</artifactId>
+    <version>2.1.0</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.shiro</groupId>
+    <artifactId>shiro-crypto-core</artifactId>
+    <version>2.1.0</version>
+</dependency>
+
+
+<!-- Source: https://mvnrepository.com/artifact/org.apache.shiro/shiro-event -->
+<dependency>
+    <groupId>org.apache.shiro</groupId>
+    <artifactId>shiro-event</artifactId>
+    <version>2.1.0</version>
+    <scope>compile</scope>
+</dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/org.apache.shiro/shiro-jaxrs -->
+<dependency>
+    <groupId>org.apache.shiro</groupId>
+    <artifactId>shiro-jaxrs</artifactId>
+    <version>2.1.0</version>
+    <scope>compile</scope>
+</dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/org.apache.shiro/shiro-lang -->
+<dependency>
+    <groupId>org.apache.shiro</groupId>
+    <artifactId>shiro-lang</artifactId>
+    <version>2.1.0</version>
+    <scope>compile</scope>
+</dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/org.apache.shiro/shiro-jakarta-ee -->
+<dependency>
+    <groupId>org.apache.shiro</groupId>
+    <artifactId>shiro-jakarta-ee</artifactId>
+    <version>2.1.0</version>
+    <scope>compile</scope>
+</dependency>
+           
     </dependencies>
 </project>
